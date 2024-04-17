@@ -65,7 +65,7 @@ export default function DialogComponent(
             <DialogTitle bgcolor={"#2aae84"} color={"white"}>Aplicar Filtros</DialogTitle>
                 <DialogContent sx={{background: "#2aae84"}}>
                     <DialogContentText color={"white"}>Filtros</DialogContentText>
-                        <Typography color={"white"}>Tiempo de Ingreso</Typography>
+                        <Typography color={"white"}>Fecha de Ingreso a Bloom</Typography>
                         <FormControl>
                             <Box display={"flex"} flexDirection={"row"}>
                                 <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -90,7 +90,7 @@ export default function DialogComponent(
                                 </LocalizationProvider>
 
                             </Box>
-                            <Typography color={"white"}>Tiempo</Typography>
+                            <Typography color={"white"}>Fecha de detección</Typography>
                             <Box display={"flex"} flexDirection={"row"}>
                                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                                     <DateTimePicker

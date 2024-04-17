@@ -12,7 +12,7 @@ IMPORTANT: Make sure you are running the backend for the correct functionality o
 #### Requirements
 Make sure you have installed nodejs 20.x.x or superior and npm
 
-Go to the homeworkapp folder inside the front folder and run the following command:
+Go to the folder of the front project and run the following command:
 
 ```bash
     npm i
