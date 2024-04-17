@@ -78,7 +78,7 @@ export default function Home() {
 
   useEffect( () => {
     if (mapContainer.current) {
-      mapboxgl.accessToken = "pk.eyJ1IjoiZGllZ29hbWlnbyIsImEiOiJjbHYybmZpNjkwanVhMmtsaHd3ZHY4MnZmIn0.kygS_1v9ovRcmaBgjZy3sQ";
+      mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!;
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: 'mapbox://styles/mapbox/streets-v11',

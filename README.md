@@ -12,6 +12,9 @@ IMPORTANT: Make sure you are running the backend for the correct functionality o
 #### Requirements
 Make sure you have installed nodejs 20.x.x or superior and npm
 
+NOTE: insert your token of mapbox inside the .env.development file (for security reasons)
+If you don't have one you will need to create one from the mapbox web (more info in https://docs.mapbox.com/mapbox-gl-js/guides/install/)
+
 Go to the folder of the front project and run the following command:
 
 ```bash
